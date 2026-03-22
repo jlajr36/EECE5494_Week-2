@@ -1,0 +1,122 @@
+0:022 secondsHello and welcome to this tutorial on using magic grid uh uh methodology in Kitia Magic. Um and in today's session
+0:1111 secondswe will dive into the vehicle climate control system um example that's also in part of your installation. Uh if you go
+0:2020 secondsto file uh open project and go to your installation um uh uh directory uh go
+0:3030 secondsinto samples. So I'm going backward um wherever you have installed the uh msosa go to the samples package uh find um
+0:4040 secondsmagic grid and then uh this is the um this uh sample to the
+0:4646 secondsvccs. Um there's uh it it has been uh added multiple um versions of it. Um
+0:5454 secondsmost of them are the same. This is the most recent one uh the sample two version two. Um in addition when you
+1:031 minute, 3 secondslaunch MSA you'll find the sample in the front page. You can access it from from there as well. um uh when launching um
+1:131 minute, 13 secondsMSOSA. Um here we just today we would go over the uh uh uh problem domain
+1:221 minute, 22 secondsblackbox uh uh uh equivalent to this week material. Uh but before we do that we let's start by taking a look at the
+1:311 minute, 31 secondscontainment tree. Again, the templates that you guys have when you do file new and go into um these grids, it allows
+1:401 minute, 40 secondsyou to have that structured um um containment tree for the problem domain,
+1:461 minute, 46 secondsa solution domain and the implementation domain. Uh so these become uh come to you organized um empty or with with a
+1:551 minute, 55 secondssample from the template. But this is the example where uh we will be going over the implementation for
+2:022 minutes, 2 secondsVCCS. Um here we find that um the tree is structured to navigate through the different domains in um magic grid. The
+2:112 minutes, 11 secondsproblem domain, solution domain. Um um I mentioned also in the um uh instructions of the videos. These are the
+2:192 minutes, 19 secondsarchitecture of this subsystem. Um you can notice the icon on these packages like that and it means that it's a um a
+2:272 minutes, 27 secondsuse package. Um um so it has and you can see that empty zip. So it's uh it is
+2:352 minutes, 35 secondssomewhere uh uh um wherever the installation reading that uh empty zip
+2:412 minutes, 41 secondsum by doing file uh import um actually file use project sorry uh use local
+2:482 minutes, 48 secondsproject if it's a local project or maybe um uh uh the use project in sample 2
+2:562 minutes, 56 secondshere these are the project that has been used in here so it's a standalone um uh project that has been use with this main
+3:043 minutes, 4 secondsproject and this ensure um uh modularization uh as well. Um in addition um uh looks like
+3:133 minutes, 13 secondsthe problem domain solution domain was worked by different teams and been used in this main project. So all of them are
+3:213 minutes, 21 secondsused except for that implementation. Uh I'm going to remove the auxilary resources.
+3:273 minutes, 27 secondsum um except the implementation doesn't have that extra icon on top of the package. So this is the one that's in um
+3:363 minutes, 36 secondsuh this main model. Uh the show auxiliary resources just quickly shows all the different um profiles libraries
+3:443 minutes, 44 secondsum uh that has been also used um available um by the kit magic installation. These are the ones that uh
+3:543 minutes, 54 secondsuh models that are modeled by the users and also used in the same um uh mechanism file and use
+4:024 minutes, 2 secondsproject. So that's the structure of the tree. Again um it's it's it's the black box white box. um these structure it's
+4:124 minutes, 12 secondsnice to have them well uh well well defined for you using the template but there you can always and you should be
+4:194 minutes, 19 secondsmodifying it at as it works for you and with your team and your modeling uh style. Um today we're just going to
+4:274 minutes, 27 secondsfocus on the black box uh uh which are um simple uh system diagrams that we
+4:354 minutes, 35 secondshave covered in the first course. Um but we will start by the stakeholder needs.
+4:404 minutes, 40 secondsSo again this uh magic grid template comes with the uh uh template of magic
+4:474 minutes, 47 secondsgrid. So what happens is after you complete u modeling that diagram you drag and drop it on top of that cell it
+4:554 minutes, 55 secondsit allows for um easy readability by the different users. Um so the stakeholder
+5:015 minutes, 1 secondneeds it's a a requirement diagram. Um it lists here the different uh uh requirements uh uh the user needs, the
+5:105 minutes, 10 secondsstakeholder needs um to to uh uh with the text to explain um what the system must achieve from the perspective of the
+5:195 minutes, 19 secondspeople and the organizations that will be using that system. Um uh so um example sound level,
+5:285 minutes, 28 secondsmanual control, energy consumption and so forth. Um uh so this is still at a high level blackbox just like um
+5:365 minutes, 36 secondsexpectation uh from the different users of that system. Um these requirements
+5:425 minutes, 42 secondswill keep getting refined um um at the different level of abstraction as
+5:485 minutes, 48 secondswell. Um um again um as a core u uh um the VCC uh S which owns the uh select in
+5:585 minutes, 58 secondscontainment tree uh the vehicle in use uh the VCCU is the uh system context and
+6:066 minutes, 6 secondsin here we're just explaining um uh uh using IBD internal block diagram within
+6:126 minutes, 12 secondsthat uh system context of um h what does this system look like in terms of an
+6:206 minutes, 20 secondsexternal perspective without the focus on um the internal workings of all of these systems together. Still at the
+6:286 minutes, 28 secondsblackbox level um uh we are focusing on uh the external perspective rather than
+6:356 minutes, 35 secondsthe um interactions from uh the detailed within each subsystem. So here we have
+6:426 minutes, 42 secondsum the VCCU um uh along with the temperature sensor, the occupant and the
+6:496 minutes, 49 secondscabin and just showing uh uh how that how these elements interact with each other on the these connector using um uh
+6:586 minutes, 58 secondsthese uh signals um that has been uh added on these uh as an item flows on these
+7:067 minutes, 6 secondsconnectors. Again when you go to um this is a the ambient temperature is a signal
+7:137 minutes, 13 secondsand these are the exchange items that has been added in the problem domain to be used uh by the different problem
+7:217 minutes, 21 secondsdomain area. These are modeled as signals here added on these connectors.
+7:277 minutes, 27 secondsSo just as still we're exploring the space we're seeing how these different system interact uh at a higher level. Um
+7:367 minutes, 36 secondshere the BBB functions we uh two uh blackbox functions to context um as a starting point. We want to make sure
+7:437 minutes, 43 secondsthat we uh are relating the system functions uh um uh uh to uh its con
+7:527 minutes, 52 secondscontext and how they contribute to achieving the stakeholder needs. Um so this is the BCCU and the uh PI property
+8:008 minutesthat we saw in the IBTS with the item exchange and we are uh allocating these
+8:068 minutes, 6 secondsum uh functionalities from the blackbox functionalities uh to these different um
+8:138 minutes, 13 secondsum stakeholders or participant in uh that vehicle in use context.
+8:198 minutes, 19 secondsUh so we see that uh functions like display, temperature, evaluate, comfort,
+8:248 minutes, 24 secondsreach, uh desired temperature are linked to the broader system context uh such as uh also vehicle usage as well as um the
+8:348 minutes, 34 secondsoccupant comfort. Um so we start again by showing the allocation ensuring that all of the BBB functionalities is are
+8:438 minutes, 43 secondsbeing addressed um at a higher level of these different system. Once these system become more we decompose them
+8:508 minutes, 50 secondsthese allocation become more refined. Um moving on with this magic grid um uh use cases is part of the behavior.
+9:009 minutesUh again this uh this is the requirement the structure the here it's in between the behavior and the structure because
+9:089 minutes, 8 secondsuh it's allocate the structure to the behavior. So that's how you see it's being placed here in the middle. Um you may might have multiple use cases. Um
+9:179 minutes, 17 secondsyou'll find the space you'll expand it or uh you'll create multiple uh grids for different uh stakeholder um needs.
+9:259 minutes, 25 secondsUh this is just a sample but um you might be using different grid diagrams
+9:329 minutes, 32 secondsto represent different um uh uh aspects of the system for different stakeholders. So here we we are placing
+9:429 minutes, 42 secondsthe use cases under the behavior in the black box um uh in here. So
+9:489 minutes, 48 secondsum again it's a simple uh use case we are seeing um how the uh system must
+9:559 minutes, 55 secondsrespond to the uh vehicle uh occupant uh to provide comfortable temperature. Uh
+10:0310 minutes, 3 secondsthis use case outlines just the key functionalities uh ensuring that we achieve the stakeholder needs for comfort. Um um use cases will have
+10:1210 minutes, 12 secondssometimes uh different uh external actors with different um use cases inclusion as well. Um uh so this is
+10:2210 minutes, 22 secondsmodeled as um under the user and other systems here. Um and this is being a block but just like the icon that you
+10:3110 minutes, 31 secondssee here in the image of the block um show that this way. Um
+10:3810 minutes, 38 secondsuh so uh let me go back to the use cases. Um this use case is uh um if I
+10:4610 minutes, 46 secondsopen that specification um it has uh behavior and this is the classifier behavior that provides
+10:5410 minutes, 54 secondscomfortable uh um uh uh temperature and you can see the rake here that means
+11:0111 minutes, 1 secondthat there is a uh associated use case specification with it. So when I double click on that um use case, it takes me
+11:1111 minutes, 11 secondsto that use case specification which is an activity diagram um where uh in in
+11:1811 minutes, 18 secondshere we see um uh the overall uh activity uh how the system will respond
+11:2711 minutes, 27 secondsuh in providing comfortable temperature for the vehicle occupant with swim lanes um um uh as as
+11:3611 minutes, 36 secondswell as um uh whole behavior actions. So again this will be uh there's a
+11:4411 minutes, 44 secondsbehavior modeled here under um it was uh placed under that use case um uh called
+11:5211 minutes, 52 secondsin this higher level uh activity provide a comfortable action. Um the again um
+11:5911 minutes, 59 secondsthese um uh control flow act uh uh also um sorry the object flow the uh solid
+12:0712 minutes, 7 secondsline um has um uh realized the exchanges that took place between the vehicle
+12:1412 minutes, 14 secondsoccupant and the VCCU that has been uh described in uh in the in the uh IBD. So
+12:2212 minutes, 22 secondsyou can see how it builds on top of each other. But what's added here in the activity diagram for that item exchange is the producing and the consuming um
+12:3112 minutes, 31 secondsactions of these item exchange. So in here you'll start describing the different use cases more detailed on how
+12:3912 minutes, 39 secondsthis will be uh accomplished using um the different uh um um system context element that we describe in the black box.
+12:4912 minutes, 49 secondsSo the uh again nothing is connected in terms of state machine and we're still at the uh blackbox level uh describing
+12:5612 minutes, 56 secondsthe use cases and the activities uh stakeholder needs as well. This is the diagram the activity diagram placed here
+13:0413 minutes, 4 secondswhich is uh again it's under the um uh um uh the activity provide comfortable
+13:1213 minutes, 12 secondsuh uh temperature which is the classified behavior of that use case or what we call it also um the use case
+13:1913 minutes, 19 secondsspecification. You can see that this use case own or contain multiple
+13:2613 minutes, 26 secondsuh uh behavior but there's one classifier behavior which is this one um and which uses the different uh
+13:3413 minutes, 34 secondsactivities here. So you're expected in this week to to do um um a digital thread of this uh for the blackbox for
+13:4313 minutes, 43 secondsthe system in hand. Um completing these views and um ability to to go uh from um
+13:5113 minutes, 51 secondsuh these views making sure that they're all traceable and connected. Finally in um uh in the BB uh black box we are
+14:0014 minutesshowing just like we adding um value properties here um you the so just that
+14:0814 minutes, 8 secondsstereotype this is a value property so if I double click on it
+14:1714 minutes, 17 secondsuh this is a value property added to uh uh there's a a a holder so just that
+14:2514 minutes, 25 secondsinheritance. So any system needs to inherit these um uh value properties uh
+14:3114 minutes, 31 secondsthat for encapsulation uh so uh this um inherits these and redefine them uh for
+14:3814 minutes, 38 secondsthe for its use. Um this is a practice uh to do as well. So the value
+14:4414 minutes, 44 secondsproperties here are uh because it the check is derived the backslash is added uh uh um at the beginning of the string
+14:5414 minutes, 54 secondsof that value property. Uh the type of it is DBA. Uh you can um add your own
+15:0215 minutes, 2 secondsvalue uh value types libraries or use the ISO library that you can upload uh when you add the KIA magic. Um in
+15:1015 minutes, 10 secondsaddition just like here we start with adding these value properties and uh this is um an added stereotype on top of
+15:1915 minutes, 19 secondsthe value property. So that is the stereotype that has been added in here.
+15:2515 minutes, 25 secondsSo uh uh uh this is just like the effort that is expected from the architect at
+15:3115 minutes, 31 secondsthe blackbox level uh um going over the blackbox requirements, structure,
+15:3715 minutes, 37 secondsbehavior and parameters. Um we we we're going through uh every domain one by one
+15:4615 minutes, 46 secondsuh equivalent to the weeks we are studying magic grid allowing you to go use that example to um um implement it
+15:5515 minutes, 55 secondsfor the example we have in hand. Uh thank you for joining this session and uh next uh video we will uh go over the
+16:0316 minutes, 3 secondsuh white box diagrams um in this row here. Thank you.

@@ -1,0 +1,59 @@
+0:022 secondshello and welcome to this introduction of magic Rd uh which is a powerful framework for system modeling uh by so systems uh this is the reference book we
+0:1111 secondswill be using uh in the next four weeks to cover magic Rd uh um which is which is in a great format uh also implemented
+0:1919 secondsin ktia Magic and in the next video I will show uh how you can open that uh template that is predefined for um magic
+0:2828 secondsgrid modelers uh for modeling um here we um uh we help uh in
+0:3535 secondsthis approach uh have a structured way to model uh uh system design specifications uh uh from requirements
+0:4343 secondsBehavior structures and parameters throughout the different domains of the system uh model in hand um um and and
+0:5151 secondsthis is the link that takes you to uh this uh um uh available book online through uh the S systems
+1:001 minuteum magic grid is a uh structured way that helps system engineer to structure their models uh using this uh grid
+1:081 minute, 8 secondsformat uh aligning uh the um requirements Behavior structure and parameters uh to the different uh domain
+1:171 minute, 17 secondsuh uh of your system uh this a structured approach consistent scalable that helps uh uh uh analysts and
+1:261 minute, 26 secondsArchitects uh work of the uh the complex systems that's usually in hand
+1:321 minute, 32 secondsin a in a very uh structured approach so um target audience system Engineers who
+1:391 minute, 39 secondsare responsible for the design and uh managing the system architectures the architects who develop these systems uh
+1:481 minute, 48 secondsthe analysts who need to evaluate the system performance so these are the people who will be inside the model um
+1:561 minute, 56 secondsmaking sure that the uh system uh design specific is well uh modeled and architected uh
+2:042 minutes, 4 secondsapplication domain um mainly airospace automative Health cure telecommunications but any system or any
+2:102 minutes, 10 secondsdomain that has a system that uh allows uh The Architects to model it and uh cisl uh can utilize that approach that
+2:202 minutes, 20 secondsstructured approach to um um model the design specification and architecture um
+2:262 minutes, 26 secondsthroughout the life cycle of the system um so in the uh a magic Rd we have the
+2:362 minutes, 36 secondsdifferent domains in the grid uh blackbox uh white box solution and implementation this is a quick overview
+2:432 minutes, 43 secondsof what each uh domain is um and uh from the problem to the solution to the
+2:512 minutes, 51 secondsimplementation uh that helps uh these Architects manage uh uh the architecture
+2:582 minutes, 58 secondsof the system and in that approach in the blackbox uh we have um uh the system of interest is like just it's a blackbox
+3:073 minutes, 7 secondsuh so uh we just want to understand uh who are the main elements what's the input output and interactions without uh
+3:153 minutes, 15 secondsconsidering the internal workings just to understand what is that system of interest that is that's needed to be designed to meet the system uh uh the
+3:243 minutes, 24 secondsstakeholder expectations um once this uh layer is completed we will move on into a more detailed examination of what's
+3:323 minutes, 32 secondsthe uh um workings of the system components uh we open them up we make sure that we understand the subsystems
+3:413 minutes, 41 secondsuh um how they interact what is like uh within that one interaction there is many interaction that take place in the
+3:493 minutes, 49 secondssubs in the white box so um uh it allows the model to move in a structured way again from high level abstructure to
+3:573 minutes, 57 secondsmore detailed specifications um uh from the black to box to the white box
+4:044 minutes, 4 secondsanalysis in the solution domain we hear uh um do more of the architecture work to understand uh and design the
+4:124 minutes, 12 secondsarchitecture that will meet meet these requirements um and the stakeholder expectations uh detailing The Logical
+4:204 minutes, 20 secondsand physical components um uh that will they will work together to form a complete solution um in here we will
+4:284 minutes, 28 secondswork with uh bdd is uh uh uh to to model uh the structure along with the with the
+4:364 minutes, 36 secondsibds that is also connected with the state machine uh so when you simulate these old behavioral models you can see
+4:434 minutes, 43 secondsthe whole pictures uh simulated uh you'll put these diagrams in one place uh uh uh synchronizing the activities um
+4:534 minutes, 53 secondsand the states and the ibts uh so you'll understand how every all of these systems
+5:005 minutessubsystems components work in a way that will allow the simulation um verify that you are meeting this stakeholder
+5:095 minutes, 9 secondsexpectations um uh once they uh uh the activity or behavior changes state will
+5:165 minutes, 16 secondschange uh interactions will change as well um in the implementation domain
+5:245 minutes, 24 secondshere it's not uh um in Magic grid there's just we want to make sure that we verify that the uh implementation
+5:325 minutes, 32 secondsrequirement is being verified Satisfied by the solution so there's not we will not model a layer of architecture for
+5:395 minutes, 39 secondsthe implementation um you can um uh if you're interested in doing that you can make make it um architected in the same
+5:485 minutes, 48 secondsplace but the magic Rd stops at just ensuring that uh the implementation requirements is met by the solution
+5:555 minutes, 55 secondsdomain so uh to uh uh uh summarize it uh we uh Magic grid is a structured around
+6:046 minutes, 4 secondsthree key domains the problem domain where we uh Define uh what the system must do blackbox and white box analysis
+6:126 minutes, 12 secondsthe solution domain um where we design and specify the system architecture based on the problem requirements that
+6:206 minutes, 20 secondswe have in hand and in the implementation domain we make sure that um the solution that we have specified
+6:276 minutes, 27 secondsare meeting uh the implementation requ requirements uh to ensure that we this is all um uh complete and well
+6:356 minutes, 35 secondsstructured we use requirement diagrams structure diagrams BTT and IBT uh uh to describe uh uh the structure the
+6:446 minutes, 44 secondsbehavior will mainly use State machine uh activity diagrams uh uh as well and uh the parameter uh which we will be
+6:536 minutes, 53 secondsused parametric diagram to uh have a defined constraints performance limits and run the simulations to ensure that
+7:017 minutes, 1 secondum the system uh architecture is well uh well defined so again just a comparison between how things move from documents
+7:107 minutes, 10 secondsto models uh uh uh now you're you're you have the ability to architect simulate
+7:197 minutes, 19 secondsverify uh requirements early on in the stages of the system development versus having these static documents um that
+7:277 minutes, 27 secondsthey don't interact together so with applying the magic Rd that we will show uh uh in the next video you uh
+7:357 minutes, 35 secondsin Kia magic uh you have a clear traceability from requirement to implementation improve system
+7:437 minutes, 43 secondsunderstanding communication and aligning uh with the best practices as well so this was a quick introduction about magic GD uh we'll see you in the next
+7:527 minutes, 52 secondsvideo we will remove uh from the different domains uh thank you for watching

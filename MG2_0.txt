@@ -1,0 +1,50 @@
+0:022 secondsUh hello and welcome to the magic grid project integrated approach uh to system specification uh uh logical architecture
+0:1010 secondsand design using Kitia magic. Um in this video we'll just uh have a quick walk through the predefined configured magic
+0:1818 secondsgrid template that comes with the KIA magic uh making your work easier and have a faster start. Before we start uh
+0:2626 secondswithin the samples here uh when you launch your Kitia magic there is the magic grid uh project and uh we will be
+0:3434 secondsusing um uh the uh vehicle climate control system in our uh modules. Um uh
+0:4242 secondsthere is different versions with the different enhancement of the workflows.
+0:4646 secondsUm uh this is a a good starting point the vehicle climate control system as well um that uses magic grit uh
+0:5353 secondsapproach. So use that project to follow through the um the videos we explain uh
+0:5959 secondsthe magic grid uh framework uh with uh so when you create a new project in
+1:051 minute, 5 secondsunder system engineering um uh we you have this uh system uh project um
+1:121 minute, 12 secondsthere's uh uh two uh versions of the magic grid uh the blank uh versus the quick start where you have uh more
+1:201 minute, 20 secondsdiagrams. Um version two uh did a better enhancement of that workflow explore the differences between uh the two and uh
+1:291 minute, 29 secondsthe book does explain uh how that enhance uh uh uh enhancement um uh in more details that took place between
+1:371 minute, 37 secondsversion one and version two with more alignment with the ISO specification in version two um uh but they're very
+1:451 minute, 45 secondssimilar but with uh more enhancement that is also available and explore explained in or your reference book. Um,
+1:531 minute, 53 secondsthe blank doesn't have a a diagram populated with the elements. This one just give you an example of that. So,
+2:012 minutes, 1 secondlet's open up one of that and I'm going to call it magic grid uh
+2:112 minutes, 11 secondstemplate. Just to show you uh when you open that up uh how you can modify it to
+2:172 minutes, 17 secondsuh uh work with your um uh model uh while creating the model uh um in in the
+2:262 minutes, 26 secondsdifferent weeks of the magic grid. So once uh this is being launched uh this is the index content diagram will show
+2:342 minutes, 34 secondsup uh available uh within that sample here. Um again this is the index
+2:442 minutes, 44 secondscontent diagram and uh the different um uh um the enhanced workflows where it
+2:512 minutes, 51 secondsshows explicitly uh as a a guide where to start and how to move within your uh uh uh system
+2:592 minutes, 59 secondsspecifications. Um again um um uh that enhanced workflow is better here
+3:063 minutes, 6 secondscompared to the version one that were there was not uh not that flow uh shown.
+3:133 minutes, 13 secondsUh this is dependent uh this is again um uh here our content diagram that uh uh
+3:213 minutes, 21 secondscontain different diagrams. But before I move on, uh this is this uh uh uh if I select that in containment tree, this is
+3:303 minutes, 30 secondsthe diagram itself. Uh uh uh dragged and dropped from the containment tree to the different views. Um a diagram when when
+3:383 minutes, 38 secondsyou bring it to uh uh the different diagrams when you double click on it, it takes you to that view of the model
+3:453 minutes, 45 secondswithin it. There are multiple diagrams uh um that been summarized within these views. Again, um uh these are the
+3:543 minutes, 54 secondsdifferent diagrams that are within the model. Just a summary way, a structured way that takes you as an architect uh using this grid um in a a much easier
+4:034 minutes, 3 secondsapproach um uh that is uh uh predefined and built uh for your usages. Again, uh
+4:114 minutes, 11 secondsin every diagram, there's that index that takes you back to this um main view. Um uh and within each content
+4:184 minutes, 18 secondsdiagram when you double click on it um there's the different diagrams that been summarized for that uh uh specification
+4:264 minutes, 26 secondsbetween the domain and the pillar of interest. Again this is an IBD uh within that system context. So again you would
+4:354 minutes, 35 secondseither um uh rename that and um uh easily from here go to the different
+4:444 minutes, 44 secondspart properties. So when I go from that part property to the type these are the like system here uh within the white box
+4:524 minutes, 52 secondsyou start you either um rename them. So this is the template with a uh with um
+4:594 minutes, 59 secondsthat is not blank like with examples that you can either rename or delete uh and create a new one. Um so you use this
+5:075 minutes, 7 secondsas appropriate. Here are also the users and here's an external system. This is only just examples um of these elements.
+5:165 minutes, 16 secondsSo when I go that to the um type of that user, it's here within the users and other subsystem within uh the blackbox
+5:245 minutes, 24 secondsum system context. Uh so you'll add more of these elements and um um uh uh
+5:315 minutes, 31 secondsassociate them with the system context as well. Um uh so that is a way of of uh
+5:385 minutes, 38 secondsusing that grid. It's a faster way. Um it's allows you to um um have a um a
+5:455 minutes, 45 secondsquick start of the um uh found using this foundational framework uh um um
+5:525 minutes, 52 secondsthat allows you to uh model the different system needs and uh views. Um explore that template, customize it as
+6:006 minutesis appropriate for your project. Um but it's a start uh um it's a starting point to uh robust modeling that meet your objectives in a model based approach.
+6:116 minutes, 11 secondsThank you for listening and um um again also use the samples within magic grid to see the different ways um that been
+6:206 minutes, 20 secondsexplored to model um uh the system using this framework. We'll see you in the next video.
+Shorts

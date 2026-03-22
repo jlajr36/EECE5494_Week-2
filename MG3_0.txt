@@ -1,0 +1,102 @@
+0:033 secondsWelcome to this uh module in our magic grid series and in this session we will introduce the blackbox analysis um which
+0:1111 secondsis the key concept of the problem domain um in magic grid. uh here we will be uh
+0:1818 secondsuh look at the system of interest in terms of its input outputs and interaction without going into uh the
+0:2626 secondsinternal mechanism of that uh system of interest. Um so the key focus here is like we want to make sure that we
+0:3434 secondscapture uh what do the users and external uh um systems expect from our system. uh how does the system interact
+0:4343 secondswith the environment around and the um use cases how the different ways that the system will uh provide like what are
+0:5151 secondsthe services that's being provided by our system of interest and how do we assess at a high level the system um or
+0:5858 secondsmeasure of effectiveness meeting uh the stakeholder expectations. Um so who are the stakeholders uh in general because uh we
+1:081 minute, 8 secondswill focus on capturing the stakeholders needs. So stakeholders will vary depending on the system of interest that you have in hand. But common types of
+1:171 minute, 17 secondsstakeholders are um the you the users who will interact with your uh system on a daily basis. customers, the entities
+1:251 minute, 25 secondsthat uh uh uh purchasing uh these systems, regulators, authorities,
+1:331 minute, 33 secondsuh ensuring compliance uh with the different regulations, uh developers and engineers that are responsible of
+1:391 minute, 39 secondsbuilding these systems. Um these are examples of uh uh the different stakeholders that you can have in your
+1:471 minute, 47 secondsscope of the stakeholder needs. Some of the stakeholders needs uh again everybody will have it their own uh
+1:541 minute, 54 secondsdistinctive needs but some of it like um uh usability designs uh um clear
+2:012 minutes, 1 secondfunctionalities modularities between in these systems uh safety relability are
+2:072 minutes, 7 secondsuh examples of the stakeholder needs. So um in um uh uh capturing the stakeholder needs we will capture them in magic grid
+2:162 minutes, 16 secondsin a and uh using the requirements and this is as you see uh requirement uh table uh we uh list out the different
+2:252 minutes, 25 secondsstakeholder needs and as you can see there's different categorizations. So um this is uh user needs uh is under the
+2:342 minutes, 34 secondsstakeholder needs and these are the different um user needs within the user needs and this then this is another
+2:412 minutes, 41 secondscategory um within the stakeholder needs for design uh constraints. So um again
+2:472 minutes, 47 secondsin here you start um adding the real word expectations as requirement in a structure and traceable approach uh to
+2:562 minutes, 56 secondslink them at at some point with the measurements as well that um meeting these elements like you want to add
+3:033 minutes, 3 secondsconstraints that will calculate these values ensuring that these requirements are being satisfied. So stakeholder
+3:103 minutes, 10 secondsneeds are captured using requirements um in um in the magic grid format
+3:173 minutes, 17 secondsum and um in the blackbox structure. So the second column in the magic grid you
+3:243 minutes, 24 secondswill start building um uh that um um um structure and this example we we are
+3:333 minutes, 33 secondsgoing throughout the magic series for the vehicle climate control system VCCU
+3:403 minutes, 40 secondsum and uh we are listing we are uh modeling it um using magic grid uh so in the structure you do a highle view of
+3:493 minutes, 49 secondsthe key components Um sorry uh the the key components the interactions uh using
+3:563 minutes, 56 secondsinternal block diagram here in SISML does help us illustrate uh the uh key system components and the item flows
+4:044 minutes, 4 secondsbetween them. Um uh so for example uh the ambient temperature is um uh uh
+4:114 minutes, 11 secondsflowing from the temperature sensor to the VCCU. Um the vehicle occupant um does have the user command desired
+4:194 minutes, 19 secondstemperature to the VCCU and the information is backed to the vehicle component uh cabin uh and the VCCU
+4:274 minutes, 27 secondsinteraction will be um the air uh between them as one of the examples. So you will start modeling that uh in the
+4:364 minutes, 36 secondsum uh using uh um that blackbox concept like uh without going into the internal
+4:434 minutes, 43 secondsworkings of the system just as a high level how these different subsystems um within your system of interest interact
+4:514 minutes, 51 secondswith each other. So that is the within the blackbox structure uh in the magic grid. uh then uh you will put the
+5:005 minutesblackbox use cases. Uh you will uh help uh uh visualize uh from the external
+5:075 minutes, 7 secondspoint of view how these what are the different services that your system of interest is providing. Um so when when
+5:165 minutes, 16 secondsuh a an actor or an element trigger that system what is the service that being
+5:235 minutes, 23 secondsprovided? Uh so here we have uh the vehicle component um uh uh triggering
+5:305 minutes, 30 secondsthis vehicle in use to provide uh comfortable uh temperature. Uh so that's a use case diagram here. Um and then
+5:385 minutes, 38 secondsthere is within the um use case there's um
+5:445 minutes, 44 secondsuh uh use case relationships. Uh so this uh use case will include the provide status information and then uh this is an extension point. If an error occur,
+5:565 minutes, 56 secondsthis use case uh will be will be uh uh triggered to be executed. Any uh this is
+6:036 minutes, 3 secondsinheritance relationship between these use cases as uh so anything that is modeled here uh it will inherit these
+6:126 minutes, 12 secondsuse cases will inherit. So again uh in here you will in in the uh the use case diagram in this example uh uh you want
+6:216 minutes, 21 secondsto have a structured way to define uh the system functionality want to ensure that the stakeholder needs are clearly mapped to the real world in uh
+6:296 minutes, 29 secondsinteractions before you move to the detailed uh design. So uh again we're moving through the black uh uh in the
+6:386 minutes, 38 secondsmagic grid um uh each row by row but then before we move to the next row we
+6:456 minutes, 45 secondswere we're covering each column and what are the um the framework uh uh suggesting to have uh these systemal
+6:536 minutes, 53 secondsdiagrams employed uh uh to clarify the blackbox white box solution and implementation
+7:017 minutes, 1 secondum in um uh If I go back one slide back in here, you can see that this use case
+7:087 minutes, 8 secondshas this um um um icon the rake icon. Uh so it is associated with a use case
+7:167 minutes, 16 secondsspecification which is usually an activity diagram. So you can further on explain these use cases as well how it
+7:247 minutes, 24 secondshow it's performed using activity diagram. So within uh kiometric when you double click on that it will take you to
+7:317 minutes, 31 secondsthis blackbox use case scenario or u use case specification that allows you to uh
+7:387 minutes, 38 secondshave uh uh explicitly um uh model and architect um what steps
+7:467 minutes, 46 secondstakes place uh within that use case. uh what are the activities uh um uh that
+7:537 minutes, 53 secondstakes place uh in here. And um uh again you can um uh uh also show the item
+8:028 minutes, 2 secondsflows on uh the uh control uh on the um uh object flows and control flows here.
+8:098 minutes, 9 secondsuh um mapping ensuring mapping is um uh uh uh item flows uh from uh the IBT to
+8:188 minutes, 18 secondsthe behavior as well. So here you're describing these steps uh ensuring that you have a uh sequence of actions
+8:278 minutes, 27 secondsdecisions that might occur when executing that use case. um how the different actors with which are represented as swing lanes in this
+8:358 minutes, 35 secondsactivity diagram interact to achieve that goal. So this is a a stepbystep execution uh with decision branch shank
+8:448 minutes, 44 secondspoints um system and uh actor interactions allows you to do that uh um
+8:518 minutes, 51 secondsum modeling um and um um it's um it's a way to complete the digital thread uh
+8:598 minutes, 59 secondswithin the blackbox uh starting from again the um high level uh uh to uh uh
+9:079 minutes, 7 secondsthe use cases is to the use case specification. Uh just to ensure that all the possible execution paths are
+9:159 minutes, 15 secondsconsidered. Uh you can create multiple scenarios within that use case and study them and u model them, simulate them and
+9:239 minutes, 23 secondssee what's most appropriate um that will meet the the uh system um uh uh expect
+9:319 minutes, 31 secondsstakeholder expectations from your system. Um also uh uh within uh the
+9:389 minutes, 38 secondsblackbox you will want to trace these activities back to the uh components that uh um are allocated to execute
+9:479 minutes, 47 secondsthese u um uh elements. This is a byproduct from uh uh the activity
+9:549 minutes, 54 secondsdiagram. So the vehicle component uh property is uh allocated to these behaviors. So once you create this
+10:0310 minutes, 3 secondsbehavior uh this matrix and um define the scope of the rows and the columns uh these relationship will be uh uh
+10:1210 minutes, 12 secondsgenerated by the tool because of the allocation that took place uh within the swiplade. But that's a quick summary of
+10:1910 minutes, 19 secondsoverview of uh who are the elements that are responsible of these uh actions uh as well as a quick count of how many um
+10:2910 minutes, 29 secondsaction each excuse me each actor is um uh um
+10:3710 minutes, 37 secondsallocating within that use case specification. So it's it's a uh again you will have multiple use case specifications multiple alloc allocation
+10:4610 minutes, 46 secondsmatrices. So again having all of them in a very summary matrix allows you to make sure that you have a u well definfined
+10:5510 minutes, 55 secondsum um a traceable verified um um allocation between the behaviors and the
+11:0311 minutes, 3 secondsuh system structure. Uh finally uh here we have the uh last thing you're just starting
+11:1111 minutes, 11 secondsdefining uh value properties uh within your structural elements um at a higher level and more specifically for each uh
+11:1911 minutes, 19 secondsuh subsystems. So here you're just starting to um define these measurements
+11:2611 minutes, 26 secondsum and um uh the mat matrix that allows engineers to evaluate these uh
+11:3311 minutes, 33 secondsperformance in real world uh conditions um ensuring that the uh uh system
+11:3911 minutes, 39 secondsfunctions um um is is being captured using these. So this is a starting point
+11:4711 minutes, 47 secondsof of just starting to um uh defining these again um uh this is a stereotype
+11:5511 minutes, 55 secondson that value property. Uh the backslash is mean that this is the derived uh is derived that just like a visual way
+12:0312 minutes, 3 secondsquickly um saying that this uh uh uh value property is derived and then the colon and then the value type of that uh
+12:1212 minutes, 12 secondsmeasurement. So um uh here um again uh defining that allow you to ensure that
+12:1812 minutes, 18 secondsyou have uh uh ev you you are evaluating you're defining how that system will will uh uh be successful uh meeting
+12:2812 minutes, 28 secondsthese different measurements. Then in the next uh uh videos you'll uh see how these measurements will be connected to
+12:3612 minutes, 36 secondsthe constraint blocks ensuring that you have um analytics uh within the model at early phases of your system design. So
+12:4512 minutes, 45 secondsuh again this is uh um uh the end of the blackbox uh diagrams and views that you can build. And these are just examples
+12:5412 minutes, 54 secondsof um uh that uh vehicle climate control uh system and um how you can expand on
+13:0213 minutes, 2 secondsit have multiple views within your system um uh as well. Uh so all of this are very flexible and uh you can
+13:1113 minutes, 11 secondscustomize it based on your and the needs and what's the system of interest that's in hand. Um uh with the end of this uh
+13:1913 minutes, 19 secondsblackbox analysis uh we will move in the next video into uh the white box analysis of the problem domain. So thank
+13:2713 minutes, 27 secondsyou for watching and we'll see you in the next video.
